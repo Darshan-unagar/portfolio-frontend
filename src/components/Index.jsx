@@ -10,7 +10,7 @@ function Index() {
       {/* about wrapper */}
       <div className="about">
         <div className="about-img-holder">
-          <img src="src/assets/imgs/man.png" className="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
+          <img src="./assets/imgs/man.png" className="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
         </div>
         <div className="about-caption">
           <p className="section-subtitle">Who Am I ?</p>
@@ -24,7 +24,7 @@ function Index() {
             culpa iusto voluptatem ratione eligendi a, quia temporibus velit vero ipsa sint ex voluptatum
             expedita aliquid! Debitis, nam!
           </p>
-          <a href="src/assets/cv/Darshan Unagar.pdf" download="Darshan Unagar.pdf">
+          <a href="./assets/cv/Darshan Unagar.pdf" download="Darshan Unagar.pdf">
           <button className="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
           </a>
         </div>
@@ -41,7 +41,7 @@ function Index() {
         <div className="col-md-6 col-lg-3">
           <div className="service-card">
             <div className="body">
-              <img src="src/assets/imgs/pencil-case.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
+              <img src="./assets/imgs/pencil-case.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Website Design and Development</h6>
               <p className="subtitle"></p>
             </div>
@@ -50,7 +50,7 @@ function Index() {
         <div className="col-md-6 col-lg-3">
           <div className="service-card">
             <div className="body">
-              <img src="src/assets/imgs/responsive.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
+              <img src="./assets/imgs/responsive.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Web Applications</h6>
               <p className="subtitle"></p>
             </div>
@@ -59,7 +59,7 @@ function Index() {
         <div className="col-md-6 col-lg-3">
           <div className="service-card">
             <div className="body">
-              <img src="src/assets/imgs/toolbox.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
+              <img src="./assets/imgs/toolbox.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Responsive and Mobile Design</h6>
               <p className="subtitle"></p>
             </div>
@@ -68,7 +68,7 @@ function Index() {
         <div className="col-md-6 col-lg-3">
           <div className="service-card">
             <div className="body">
-              <img src="src/assets/imgs/analytics.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
+              <img src="./assets/imgs/analytics.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Consultation and Strategy</h6>
               <p className="subtitle"></p>
             </div>
@@ -86,7 +86,7 @@ function Index() {
       <div className="row">
         <div className="col-md-4">
           <a href="" className="portfolio-card">
-            <img src="src/assets/imgs/folio-1.jpg" className="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
+            <img src="./assets/imgs/folio-1.jpg" className="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
                 <h4>Web Designing</h4>
@@ -97,7 +97,7 @@ function Index() {
         </div>
         <div className="col-md-4">
           <a href="#" className="portfolio-card">
-            <img className="portfolio-card-img" src="src/assets/imgs/folio-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
+            <img className="portfolio-card-img" src="./assets/imgs/folio-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
                 <h4>Web Designing</h4>
@@ -108,7 +108,7 @@ function Index() {
         </div>
         <div className="col-md-4">
           <a href="#" className="portfolio-card">
-            <img className="portfolio-card-img" src="src/assets/imgs/folio-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
+            <img className="portfolio-card-img" src="./assets/imgs/folio-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
                 <h4>Web Designing</h4>
@@ -146,7 +146,7 @@ function Index() {
         <div className="col-md-6">
           <div className="testimonial-card">
             <div className="testimonial-card-img-holder">
-              <img src="src/assets/imgs/avatar2.jpg" className="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
+              <img src="./assets/imgs/avatar2.jpg" className="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             </div>
             <div className="testimonial-card-body">
               <p className="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -159,7 +159,7 @@ function Index() {
         <div className="col-md-6">
           <div className="testimonial-card">
             <div className="testimonial-card-img-holder">
-              <img src="src/assets/imgs/avatar3.jpg" className="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
+              <img src="./assets/imgs/avatar3.jpg" className="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             </div>
             <div className="testimonial-card-body">
               <p className="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
