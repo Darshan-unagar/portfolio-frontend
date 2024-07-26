@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.post('/api/contact', async (req, res) => {
+app.post('/', async (req, res) => {
   const { name, email, message } = req.body;
   console.log('Received data:', { name, email, message });
 
