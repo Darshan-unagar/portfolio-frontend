@@ -12,6 +12,8 @@ function Index() {
     setStatus('Submitting...');
   
     try {
+        console.log('Sending request with data:', { name, email, message });
+  
       const response = await fetch('https://darshanunagar.vercel.app/', {
         method: 'POST',
         headers: {
@@ -21,12 +23,21 @@ function Index() {
       });
   
       if (!response.ok) {
-        const errorData = await response.json();
+       
+        let errorData;
+        try {
+          errorData = await response.json();
+        } catch (jsonError) {
+          // Fallback if response isn't valid JSON
+          console.error('Error parsing JSON:', jsonError);
+          errorData = { error: 'Unknown error occurred' };
+        }
         console.error('Response error:', errorData);
-        throw new Error(`Network response was not ok: ${errorData.error}`);
+        throw new Error(`Network response was not ok: ${errorData.error || 'Unknown error'}`);
       }
   
       const result = await response.json();
+      console.log('Response received:', result);
       setStatus('Message sent successfully!');
       setName('');
       setEmail('');
@@ -36,6 +47,7 @@ function Index() {
       setStatus(`Error: ${error.message}`);
     }
   };
+  
   
   return (
    <div>
