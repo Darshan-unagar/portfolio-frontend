@@ -14,7 +14,7 @@ function Index() {
     try {
         console.log('Sending request with data:', { name, email, message });
   
-      const response = await fetch('https://darshanunagar.vercel.app/', {
+      const response = await fetch('http://localhost:3000/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -34,8 +34,7 @@ function Index() {
         }
         console.error('Response error:', errorData);
         throw new Error(`Network response was not ok: ${errorData.error || 'Unknown error'}`);
-      }
-  
+      }  
       const result = await response.json();
       console.log('Response received:', result);
       setStatus('Message sent successfully!');
