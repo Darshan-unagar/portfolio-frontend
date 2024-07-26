@@ -12,7 +12,7 @@ function Index() {
     setStatus('Submitting...');
   
     try {
-      const response = await fetch('https://darshanunagar.vercel.app//', {
+      const response = await fetch('https://darshanunagar.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
