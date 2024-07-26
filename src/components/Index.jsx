@@ -1,6 +1,42 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function Index() {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [status, setStatus] = useState(''); 
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('Submitting...');
+  
+    try {
+      const response = await fetch('https://darshanunagar.vercel.app//', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error('Response error:', errorData);
+        throw new Error(`Network response was not ok: ${errorData.error}`);
+      }
+  
+      const result = await response.json();
+      setStatus('Message sent successfully!');
+      setName('');
+      setEmail('');
+      setMessage('');
+    } catch (error) {
+      console.error('Submit error:', error);
+      setStatus(`Error: ${error.message}`);
+    }
+  };
+  
   return (
    <div>
   {/* about section */}
@@ -178,24 +214,53 @@ function Index() {
       <p className="section-subtitle">How can you communicate?</p>
       <h6 className="section-title mb-5">Contact Me</h6>
       {/* contact form */}
-      <form action className="contact-form col-md-10 col-lg-8 m-auto">
-        <div className="form-row">
-          <div className="form-group col-sm-6">
-            <input type="text" size={50} className="form-control" placeholder="Your Name" required />
+      <form onSubmit={handleSubmit} className="contact-form col-md-10 col-lg-8 m-auto">
+          <div className="form-row">
+            <div className="form-group col-sm-6">
+              <input
+                type="text"
+                size={50}
+                className="form-control"
+                placeholder="Your Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-group col-sm-6">
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Enter Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-group col-sm-12">
+              <textarea
+                name="comment"
+                id="comment"
+                rows={6}
+                className="form-control"
+                placeholder="Write Something"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-group col-sm-12 mt-3">
+              <input
+                type="submit"
+                value="Send Message"
+                className="btn btn-outline-primary rounded"
+              />
+            </div>
           </div>
-          <div className="form-group col-sm-6">
-            <input type="email" className="form-control" placeholder="Enter Email" requried />
-          </div>
-          <div className="form-group col-sm-12">
-            <textarea name="comment" id="comment" rows={6} className="form-control" placeholder="Write Something" defaultValue={""} />
-          </div>
-          <div className="form-group col-sm-12 mt-3">
-            <input type="submit" defaultValue="Send Message" className="btn btn-outline-primary rounded" />
-          </div>
-        </div>
-      </form>{/* end of contact form */}
-    </div>{/* end of container */}
-  </section>{/* end of contact section */}
+        </form>
+        {status && <div className="status-message">{status}</div>}
+      </div>
+    </section>
 </div>
 
   )
