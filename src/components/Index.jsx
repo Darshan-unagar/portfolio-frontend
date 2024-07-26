@@ -14,7 +14,7 @@ function Index() {
     try {
         console.log('Sending request with data:', { name, email, message });
   
-      const response = await fetch('http://localhost:3000/api/contact', {
+      const response = await fetch('https://darshanunagar.vercel.app/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
