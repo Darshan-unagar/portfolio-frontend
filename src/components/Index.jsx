@@ -131,29 +131,29 @@ function Index() {
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
                 <h4>Web Designing</h4>
-                <p className="font-weight-normal">Category: Web Templates</p>
+                <p className="font-weight-normal">HP Global Tech</p>
               </span>
             </span>
           </a>
         </div>
         <div className="col-md-4">
-          <a href="#" className="portfolio-card">
+          <a href="#" className="portfolio-card" target="_blank">
             <img className="portfolio-card-img" src="./assets/imgs/folio-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
                 <h4>Web Designing</h4>
-                <p className="font-weight-normal">Category: Web Templates</p>
+                <p className="font-weight-normal">Web Templates</p>
               </span>
             </span>
           </a>
         </div>
         <div className="col-md-4">
-          <a href="#" className="portfolio-card">
+          <a href="#" className="portfolio-card" target="_blank">
             <img className="portfolio-card-img" src="./assets/imgs/folio-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
                 <h4>Web Designing</h4>
-                <p className="font-weight-normal">Category: Web Templates</p>
+                <p className="font-weight-normal">Web Templates</p>
               </span>
             </span>
           </a>
