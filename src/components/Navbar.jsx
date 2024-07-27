@@ -22,7 +22,7 @@ function Navbar() {
         <span className="down">I am Darshan Unagar</span>
       </h1>
       <p className="header-subtitle">WEB DEVELOPER</p>
-      <button className="btn btn-primary">Visit My Works</button>
+      <button className="btn btn-primary"><a href="#portfolio" style={{color:"white"}}>Visit My Works</a></button>
     </div>
   </header>
 </div>
