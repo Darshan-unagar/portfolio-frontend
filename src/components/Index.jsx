@@ -14,7 +14,7 @@ function Index() {
     try {
         console.log('Sending request with data:', { name, email, message });
   
-      const response = await fetch('https://darshanunagar.vercel.app/', {
+      const response = await fetch('https://backend-hr4j.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
