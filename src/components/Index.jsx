@@ -63,13 +63,7 @@ function Index() {
           <p className="section-subtitle">Who Am I ?</p>
           <h2 className="section-title mb-3">About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid ad provident aut
-            fuga animi soluta quae eos non cupiditate voluptates dolorem, doloremque quos dicta quibusdam
-            impedit iure nemo a iste
-            <br />culpa! Quasi quibusdam hic recusandae delectus velit officiis explicabo voluptatibus! Nemo
-            esse similique, voluptates labore distinctio, placeat explicabo facilis molestias, blanditiis
-            culpa iusto voluptatem ratione eligendi a, quia temporibus velit vero ipsa sint ex voluptatum
-            expedita aliquid! Debitis, nam!
+           Hello there, I am Darshan Unagar Web Developer & Web Designer live in Katargam,Surat. I care about back-end and front-end, having developed solid skills in HTML5-CSS3-JS. Being a graduate in BCA from Veer Narmad South Gujarat University I have implemented my hands on different frameworks and languages like PHP, jquery, C++, SQL,node. js, Python, ASP. NET, and AngularJS. I have developed an e-commerce platform, a library management system, online jewellery management system and beauty parlour management systems. They have created attention to my good will and work towards creating a solution that will actually last on the ground. I offer excellent communication, project management, problem-solving & adaptability skills to every task I MatTable of custom tables,, alongside time-management and critical thinking.
           </p>
           <a href="./assets/cv/Darshan Unagar.pdf" download="Darshan Unagar.pdf">
           <button className="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
