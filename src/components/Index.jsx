@@ -84,7 +84,7 @@ function Index() {
             <div className="body">
               <img src="./assets/imgs/pencil-case.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Website Design and Development</h6>
-              <p className="subtitle"></p>
+              <p className="subtitle">Web designing with a smooth functioning  and seamless integration.</p>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ function Index() {
             <div className="body">
               <img src="./assets/imgs/responsive.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Web Applications</h6>
-              <p className="subtitle"></p>
+              <p className="subtitle">Building scalable, high-performance web apps to fit modern business needs.</p>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ function Index() {
             <div className="body">
               <img src="./assets/imgs/toolbox.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Responsive and Mobile Design</h6>
-              <p className="subtitle"></p>
+              <p className="subtitle">Creating responsive, mobile-first designs for a seamless user experience.</p>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ function Index() {
             <div className="body">
               <img src="./assets/imgs/analytics.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" className="icon" />
               <h6 className="title">Consultation and Strategy</h6>
-              <p className="subtitle"></p>
+              <p className="subtitle">Offering expert guidance and strategy for successful web projects.</p>
             </div>
           </div>
         </div>
