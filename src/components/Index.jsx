@@ -126,7 +126,7 @@ function Index() {
       {/* row */}
       <div className="row">
         <div className="col-md-4">
-          <a href="https://hpglobaltech.vercel.app/" className="portfolio-card">
+          <a href="https://hpglobaltech.vercel.app/" className="portfolio-card" target="_blank">
             <img src="./assets/imgs/folio-1.jpg" className="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
