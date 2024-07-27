@@ -172,7 +172,7 @@ function Index() {
           <p className="m-0 text-light">Always feel Free to Contact &amp; Hire me</p>
         </div>
         <div className="col-sm offset-sm-2 offset-md-3">
-          <button className="btn btn-lg my-font btn-light rounded">Hire Me</button>
+          <button className="btn btn-lg my-font btn-light rounded"><a href="telto:+919313951625">Hire Me</a></button>
         </div>
       </div> {/* end of row */}
     </div> {/* end of container */}
