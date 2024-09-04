@@ -65,7 +65,7 @@ function Index() {
           <p>
            My love for creativity and tech, coupled with my wish to solve real-world problems using web development is one of the main reasons I decided to chase a career in Web Developer &Web Designer. I have a degree of Bachelor in Computer Application from Veer Narmad South Gujarat University, aswell I can work on both front-end and back-end technologies such as HTML5, CSS3, JavaScript, php, jquery, c++, sql, node.js, Python, ASP. NET and AngularJS. My work on projects, from e-commerce platforms to library and inventory management systems are a mirror of my desire to build useful things that look great. My process centers around merging pragmatic design with a spark of creativity and communicating experience. My aim is to work on exciting projects that blend beauty with utility and which keep pace with the changing world.
           </p>
-          <a href="./assets/cv/Darshan Unagar.pdf" download="Darshan Unagar.pdf">
+          <a href="./assets/cv/Fullstack Developer - Darshan-Unagar.pdf" download="Darshan Unagar.pdf">
           <button className="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
           </a>
         </div>
