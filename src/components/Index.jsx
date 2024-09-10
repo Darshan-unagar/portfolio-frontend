@@ -12,7 +12,7 @@ function Index() {
     setStatus('Submitting...');
   
     try {
-        console.log('Sending request with data:', { name, email, message });
+        
   
       const response = await fetch('https://backend-hr4j.onrender.com/', {
         method: 'POST',
@@ -36,7 +36,6 @@ function Index() {
         throw new Error(`Network response was not ok: ${errorData.error || 'Unknown error'}`);
       }  
       const result = await response.json();
-      console.log('Response received:', result);
       setStatus('Message sent successfully!');
       setName('');
       setEmail('');
