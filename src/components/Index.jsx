@@ -177,11 +177,11 @@ function Index() {
     </div> {/* end of container */}
   </section> {/* end of section */}
   {/* testimonial section */}
-  <section className="section" id="testmonial">
+{/*   <section className="section" id="testmonial">
     <div className="container text-center">
       <p className="section-subtitle">What Think Client About Me ?</p>
       <h6 className="section-title mb-6">Testmonial</h6>
-      {/* row */}
+      
       <div className="row">
         <div className="col-md-6">
           <div className="testimonial-card">
@@ -210,8 +210,8 @@ function Index() {
           </div>
         </div>
       </div>
-    </div> {/* end of container */}
-  </section> {/* end of testimonial section */}
+    </div> 
+  </section>  */}
   {/* contact section */}
   <section className="section" id="contact">
     <div className="container text-center">
