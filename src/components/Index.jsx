@@ -136,23 +136,23 @@ function Index() {
           </a>
         </div>
         <div className="col-md-4">
-          <a href="#" className="portfolio-card" target="_blank">
+          <a href="https://netstar.movies.codesquareinfotech.com" className="portfolio-card" target="_blank">
             <img className="portfolio-card-img" src="./assets/imgs/folio-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
-                <h4>Web Designing</h4>
-                <p className="font-weight-normal">Web Templates</p>
+                <h4>Movie findeing website</h4>
+                <p className="font-weight-normal">Netstar</p>
               </span>
             </span>
           </a>
         </div>
         <div className="col-md-4">
-          <a href="#" className="portfolio-card" target="_blank">
+          <a href="swaad-the-taste.vercel.app" className="portfolio-card" target="_blank">
             <img className="portfolio-card-img" src="./assets/imgs/folio-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
-                <h4>Web Designing</h4>
-                <p className="font-weight-normal">Web Templates</p>
+                <h4>A Recipe Finding website with AI</h4>
+                <p className="font-weight-normal">Swaad</p>
               </span>
             </span>
           </a>
