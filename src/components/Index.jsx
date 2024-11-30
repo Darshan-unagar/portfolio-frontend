@@ -147,7 +147,7 @@ function Index() {
           </a>
         </div>
         <div className="col-md-4">
-          <a href="swaad-the-taste.vercel.app" className="portfolio-card" target="_blank">
+          <a href="https://swaad-the-taste.vercel.app" className="portfolio-card" target="_blank">
             <img className="portfolio-card-img" src="./assets/imgs/folio-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
             <span className="portfolio-card-overlay">
               <span className="portfolio-card-caption">
